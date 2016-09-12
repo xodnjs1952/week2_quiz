@@ -1,3 +1,4 @@
+//dumbel
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -42,22 +43,22 @@ void main() {
 	srand((unsigned)time(NULL));
 
 	for (int i = 0; i = 10000; i++) {
-		//ø¯1
+		//≈º≈ô1
 		double x1 = square(0.0, 1.0);
 		double y1 = square(0.0, 1.0);
-		//ø¯2
+		//≈º≈ô2
 		double x2 = square(3.0, 4.0);
 		double y2 = square(0.0, 1.0);
-		//º’¿‚¿Ã
+		//≈∫≈ê≈î√¢≈îƒö
 		double x3 = square(0.5, 3.5);
 		double y3 = square(0.4, 0.6);
 		
-		fprintf(of1, "%f %f \n", x3, y3);//º’¿‚¿Ã
+		fprintf(of1, "%f %f \n", x3, y3);//≈∫≈ê≈î√¢≈îƒö
 		if ((getcircle1(x1, y1) == true)) {
-			fprintf(of1, "%f %f \n", x1, y1);//ø¯1
+			fprintf(of1, "%f %f \n", x1, y1);//≈º≈ô1
 		}
 		if ((getcircle2(x2, y2) == true)) {
-			fprintf(of1, "%f %f \n", x2, y2);//ø¯2
+			fprintf(of1, "%f %f \n", x2, y2);//≈º≈ô2
 		}
 		else { continue; }
 
