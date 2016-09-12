@@ -14,7 +14,7 @@ bool getcircle(double x, double y) {
 	double xa = 0.3;
 	double yb = 0.5;
 	double eclips;
-	eclips = ((x-0.3)*(x-0.3)) / (xa*xa) + ((y-0.5)*(y-0.5)) / (yb*yb) - 1;
+	eclips = ((x-xa)*(x-xa)) / (xa*xa) + ((y-yb)*(y-yb)) / (yb*yb) - 1;
 
 	if (eclips > 0.0) { return false; }
 	else { return true; }
